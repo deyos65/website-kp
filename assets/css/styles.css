@@ -1,0 +1,460 @@
+body{
+  background: darkblue;
+}
+/* navbar */
+.navbar-brand{
+  font-family:  'Russo One', sans-serif;
+  font-size: 32px;
+}
+.nav-link{
+
+    margin-right: 10px;
+    text-transform: lowercase;
+}
+
+.about{
+  margin-top: 30px;
+}
+
+/* jumbotron */
+.jumbotron{
+  background-image: url(../img/bg1.jpeg)  ;
+  height: 430px;
+  position: relative;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -100px;  
+  
+}
+.jumbotron .container{
+  z-index: 1;
+  position: relative;
+}
+  .jumbotron::after{
+  
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+  }
+
+.jumbotron .display-4{
+  color: aliceblue;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0,7);
+  font-size: 35px;
+  
+}
+.jumbotron .display-4 span{
+  font-weight: 500;
+}
+
+/* jumbotron profile */
+
+.jumbotron.profile {
+  background-image: url(../img/background.jpg)  ;
+  height: 420px;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -100px;
+  
+  
+}
+.jumbotron.profile .container{
+  z-index: 1;
+  position: relative;
+}
+  .jumbotron.profile::after{
+  
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+  }
+
+.jumbotron.profile .display-4{
+  color: aliceblue;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0,7);
+  font-size: 35px;
+  
+}
+.jumbotron.profile .display-4 span{
+  font-weight: 500;
+}
+/* jumbotron hymne */
+
+.jumbotron.hymne {
+  background-image: url(../img/background.jpg)  ;
+  height: 300px;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -100px;
+  
+  
+}
+.jumbotron.hymne .container{
+  z-index: 1;
+  position: relative;
+}
+  .jumbotron.hymne::after{
+  
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+  }
+
+.jumbotron.hymne .display-4{
+  color: aliceblue;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0,7);
+  font-size: 35px;
+  
+}
+.jumbotron.hymne .display-4 span{
+  font-weight: 500;
+}
+/* info panel */
+.info-panel{
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0,5);
+  border-radius: 12px;
+  margin-top: -100px;
+  background-color: #3AAFA9;
+  padding: 20px;
+}
+.info-panel img{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width:70px;
+   height:70px;
+}
+/* Spesialisasi */
+
+.Spesialisasi{
+  margin-top: 100px;
+}
+.sett{
+  background-color: aqua;
+}
+
+
+.porfolio{
+  margin-top: 100px;
+
+}
+.porfolio h5{
+  text-align: center;
+  font-weight: 200;
+  font-style: initial;
+  font-size: 20px;
+  
+}
+.porfolio figure img{
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+
+}
+.porfolio figure p{
+  text-align: center;
+}
+
+/* footer */
+.menu li {
+  display:inline;
+  
+  margin-right: 10px;
+
+  
+}
+
+.btn-search {
+  background: #424242;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1c1c1c;
+}
+.btn-search:link .btn-search:visited {
+  color: #fff;
+}
+.btn-search:active .btn-search:hover {
+  background: #1c1c1c;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .porfolio h5{
+    text-align: center;
+    font-weight: 200;
+    font-style: initial;
+    font-size: 32px;
+    
+  }
+  .detailM{
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+  .panelSendInformasi{
+      margin-top:65px;
+  }
+  
+  .about{
+    margin-top: 70px;
+  }
+  
+  .ignielPelangi{
+    height:350px;
+  }
+  .infoPanel{
+    margin-top:80px;
+  }
+  .nav-link{
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
+ 
+  
+  .tombol{
+    
+    border-radius: 60px;
+    margin-right: 10px;
+    
+  }
+  .jumbotron{
+   
+    height: 530px;
+   width: 100%; 
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: 0 -100px;
+    
+  }
+  .jumbotron .container{
+    z-index: 1;
+    position: relative;
+  }
+    .jumbotron::after{
+    
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+      position: absolute;
+      bottom: 0;
+    }
+  
+  .jumbotron .display-4{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0,7);
+    font-size: 35px;
+    
+  }
+  .jumbotron .display-4 span{
+    font-weight: 500;
+  }
+      
+  }
+
+
+/* tombol */
+
+.tombol{
+
+  border-radius: 60px;
+  margin-right: 10px;
+}
+
+/* galeri */
+
+.thumb{
+  width: 200px;
+ 
+  float: left;
+  border: 2px solid wheat;
+  box-sizing: border-box;
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ignielPelangi {
+  background: linear-gradient(45deg, #f22613, #f89406, #26a65b, #5868ec, #f54e80, #f7ca18, #d2527f);
+  background-size: 500% 500%;
+  
+  
+  -webkit-animation: ignielGradient 35s ease infinite;
+  -moz-animation: ignielGradient 35s ease infinite;
+  animation: ignielGradient 35s ease infinite;
+}
+@-webkit-keyframes ignielGradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes ignielGradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes ignielGradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
